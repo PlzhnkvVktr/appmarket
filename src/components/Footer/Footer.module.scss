@@ -1,0 +1,55 @@
+.footer{
+    height: 110px;
+    max-width: 100%;
+    
+
+    .containerFooter{
+        display: flex;
+        justify-content: space-between;
+
+        .containerLogo{
+                margin-top: 15px;
+                img{
+                    width: 180px;
+                }
+        }
+
+        .containerConnect{
+            display: flex;
+            margin-top: 25px;
+            
+            .container{
+                margin-right: 35px;
+                height: 20px;
+
+                A{
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: rgba(33, 37, 66, 0.7);
+                    text-decoration: none;
+                }
+            }
+            .container:last-child{
+                margin-right: 0;
+            }
+            
+        }
+    }
+    
+    .footerTrademark{
+        max-width: 1200px;
+        height: 45px;
+        
+        p{
+            float: left;
+            font-size: 12px;
+            line-height: 16px;
+            color: rgba(33, 37, 66, 0.5);
+        }
+    }
+}
+
+
+
+
+

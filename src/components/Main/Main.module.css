@@ -1,0 +1,24 @@
+.main{
+    min-height: calc(100vh - 86px - 155px);
+    /* padding: 10px; */
+}
+.mainTitle{
+    margin: 64px auto 48px;
+}
+.heading{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.container{
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

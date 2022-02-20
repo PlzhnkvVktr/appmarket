@@ -1,0 +1,1 @@
+export { ModalAut } from './ModalAut';

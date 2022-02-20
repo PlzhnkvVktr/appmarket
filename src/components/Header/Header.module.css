@@ -1,0 +1,197 @@
+.header{
+    max-width: 1200px;
+    height: 86px;
+    margin: 0 auto;
+
+    display: flex;
+}
+.containerHeader{
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+.container{
+    display: flex;
+    margin-right: 730px;
+}
+.container:nth-child(2){
+    margin-right: 53px;
+}
+.container:nth-child(3){
+    margin-right: 0px;
+}
+
+.containerLog{
+    display: flex;
+    margin-right: 575px;
+}
+.containerLog:nth-child(2){
+    margin-right: 53px;
+}
+.containerLog:nth-child(3){
+    margin-right: 0px;
+}
+/*not authorized*/
+.login{
+    display: contents;
+    margin: 17px 0 13px 0;
+    width: 115px;
+    height: 16px;
+}
+
+/*not authorized*/
+/*authorized*/
+.loginOn{
+    display: contents;
+    margin: 17px 0 13px 0;
+    width: 200px;
+    height: 16px;
+}
+.login button{
+    background: white;
+    border: none;
+    padding: 0;
+    width: 55px;
+    font-size: 14px;
+    line-height: 16px;
+}
+.loginName{
+    width: 200px;
+ }
+.loginOut{
+    width: 70px;
+    background: white;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 5px;
+}
+/*authorized*/
+
+
+.logoHeader{
+    max-width: 180px;
+    height: 46px;
+}
+.logPeople{
+    font-weight: normal;
+    width: 18px;
+    height: 24px;
+    margin: 11px 10px;
+}
+.authorization{
+    /*margin: 17px 0 13px 0;*/
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /*width: 115px;*/
+    /*height: 16px;*/
+}
+
+/*корзина*/
+
+.basket{
+    width: 22px;
+    height: 24px;
+    margin: 11px 10px;
+    position: relative;
+}
+.basketNum{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+.ellipse{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 22px;
+    top: 8px;
+}
+.number{
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 8px;
+    position: absolute;
+    left: 27px;
+    top: 4px;
+}
+.basketName{
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+}
+
+/*корзина*/
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .container{
+        margin-right: 500px;
+    }
+    .containerHeader{
+        display: flex;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .container{
+        margin-right: 300px;
+    }
+    .containerHeader{
+        display: flex;
+    }
+}
+@media (min-width: 400px) and (max-width: 768px){
+    .container{
+        margin-right: 50px;
+    }
+    .containerHeader{
+        display: flex;
+    }
+}
+/*@media screen and (max-width: 1600px){*/
+/*    .containers{*/
+/*        margin-right: 500px;*/
+/*    }*/
+/*    .containerHeader{*/
+/*        display: flex;*/
+/*        margin: 20px 300px 20px 300px;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 1400px){*/
+/*    .containers{*/
+/*        margin-right: 500px;*/
+/*    }*/
+/*    .containerHeader{*/
+/*        display: flex;*/
+/*        margin: 20px 200px 20px 200px;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 1200px){*/
+/*    .containers{*/
+/*        margin-right: 300px;*/
+/*    }*/
+/*    .containerHeader{*/
+/*        display: flex;*/
+/*        margin: 20px 200px 20px 200px;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 992px){*/
+/*    .containers{*/
+/*        margin-right: 250px;*/
+/*    }*/
+/*    .containerHeader{*/
+/*        display: flex;*/
+/*        margin: 20px 100px 20px 100px;*/
+/*    }*/
+/*}*/
+/*@media screen and (max-width: 768px){*/
+/*    .containers{*/
+/*        margin-right: 150px;*/
+/*    }*/
+/*    .containerHeader{*/
+/*        display: flex;*/
+/*        margin: 20px 60px 20px 60px;*/
+/*    }*/
+/*}*/

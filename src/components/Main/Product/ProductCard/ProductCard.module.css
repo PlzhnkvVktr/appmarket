@@ -1,0 +1,129 @@
+.main{
+    margin:  84px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+.pageLinks{
+    position: absolute;
+    left: 19%;
+    top: 127px;
+
+}
+.pageLink{
+    text-decoration: none;
+    color: #212542;
+
+    opacity: 0.5;
+}
+.pageLinkMain{
+    text-decoration: none;
+    color: #212542;
+}
+.productId{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgba(33, 37, 66, 0.9);
+    width: 132px;
+    height: 28px;
+
+    float: left;
+    margin-left: 10px;
+    background: #F2F2FA;
+    border: none;
+    border-radius: 26px;
+}
+.imageProduct{
+    max-width: 654px;
+    height: 100%;
+
+    background: #F1F7FF;
+    border-radius: 30px;
+}
+.imageProduct img{
+    width: 392px;
+    height: 392px;
+    background-color: white;
+}
+.descProduct{
+    width: 500px;
+}
+.counterPrice{
+    display: flex;
+    margin-bottom: 48px;
+}
+.counterContainer{
+    height: 32px;
+    width: 100px;
+}
+.counterControl{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: none;
+}
+.counterControl:first-child img{
+    width: 14px;
+    height: 14px;
+}
+.counterControl:last-child{
+    margin-top: 15px;
+}
+
+.counterInput{
+    width: 30px;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(33, 37, 66, 0.7);
+    border: none;
+    text-align: center;
+}
+.title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+}
+.descriptionTitle{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+}
+.description{
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(33, 37, 66, 0.7);
+    text-align: left;
+}
+.descriptionContainer{
+    width: 498px;
+    height: 198px;
+}
+.price{
+    font-size: 24px;
+    line-height: 16px;
+    color: rgba(33, 37, 66, 0.7);
+    text-align: left;
+    margin-right: 24px;
+}
+.error{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: red;
+}
+.buy{
+    width: 180px;
+    height: 60px;
+    float: left;
+
+    background: linear-gradient(92.65deg, #DFEBFF -21.79%, #88ADCA 126.46%), #AECEF3;
+    border-radius: 69px;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 770px) {
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+}
