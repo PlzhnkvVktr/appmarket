@@ -8,17 +8,12 @@ import {setCountCart} from "../../../../App";
 export const CartElem = (props) => {
 
 	const setCount = useContext(setCountCart)
-
 	const [products, setProducts] = useState(JSON.parse(localStorage.getItem('products')));
-
 	const deleteItem = () => {
 
 		const thisProduct = props.cart.find(h => h.id === +props.id)
 		const oneItem = products.find( x => x.id === +props.id)
 		const totalSum = oneItem.total + thisProduct.total;
-
-
-
 		const newProducts = products.map((product) => {
 			if (product.id === +props.id) {
 				return {
@@ -32,7 +27,6 @@ export const CartElem = (props) => {
 		const newArr = props.cart.filter(f => {
 			return f.id !== props.id
 		})
-
 
 		props.setCart(newArr)
 		localStorage.setItem('products', JSON.stringify(newProducts))

@@ -25,7 +25,7 @@ export const Main = (number) => {
 					Гарантия лучшего качества
 				</h1>
 			</div>
-			<div>
+			<div className={style.searchContainer}>
 				<form className={style.searchForm}>
 					<input
 						type="text" 

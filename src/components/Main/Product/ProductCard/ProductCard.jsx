@@ -83,7 +83,7 @@ export const ProductCard = (props) => {
 	return (
 		<main className={style.main}>
 			<div className={style.pageLinks}>
-				<NavLink className={style.pageLink} to={`/iceCream`}>Главная /</NavLink>
+				<NavLink className={style.pageLink} to={`/products`}>Главная /</NavLink>
 				<NavLink className={style.pageLinkMain} to={'#!'}> {currentProduct.titleProduct}</NavLink>
 			</div>
 			<div className={style.imageProduct}>

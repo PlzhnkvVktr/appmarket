@@ -13,12 +13,21 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-
 .container{
     max-width: 100%;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
-
-
+.searchContainer{
+    margin-bottom: 50px;
+}
+.searchForm input{
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #111213;
+    border-radius: 5px;
+    outline: none;
+    background: #ffffff;
+    color: #000000;
+}

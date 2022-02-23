@@ -1,21 +1,18 @@
-import React, {useState, useContext} from "react";
+import React, {useState, useEffect} from "react";
 
 import {NavLink} from "react-router-dom";
 import { CartElem } from "./CartElem/CartElem";
 
 import style from "./Basket.module.css";
-import {setCountCart} from "../../../App";
+
 
 
 
 export const Basket = () => {
 
-	// const countCart = useContext(setCountCart)
-
 	const [cart, setCart] = useState(JSON.parse(localStorage.getItem('cart')));
-	console.log(cart)
 	const [total, setTotal] = useState(0)
-	const sumItems = () => {
+	const sumItems = useEffect(() => {
 		let sum = 0;
 		cart.forEach((item) => {
 			let price = item.price.replace('$', '')
@@ -23,8 +20,7 @@ export const Basket = () => {
 			sum += calculation;
 		})
 		setTotal(sum)
-
-	};
+	}, [cart])
 
 	return (
 		<main className={style.main}>
